@@ -1,0 +1,295 @@
+/* --------------------------------1308px-------------------------------- */
+/*@media only screen and (max-width: 1308px) {
+	.mood-showcase .outer-div {
+		margin-top: 5%;
+		transition: all 0.4s linear;
+	}
+}*/
+/* --------------------------------1219px-------------------------------- */
+/*@media only screen and (max-width: 1219px) {
+	.music-stations .station {
+		margin-top: 5%;
+		transition: all 0.4s linear;
+	}
+	.music-stations .logo {
+		margin-top: 5%;
+		transition: all 0.4s linear;
+	}
+}*/
+/* --------------------------------1178px-------------------------------- */
+@media only screen and (max-width: 1178px) {
+	.main-layout .h2-headings .artists {
+		padding-top: 0%;
+		transition: all 0.4s linear;
+	}
+	.main-layout .h2-headings .artists .masterArtist {
+		margin-top: 5%;
+		transition: all 0.4s linear;
+	}
+	.main-layout .trending .image {
+		min-height: 150px;
+	}
+}
+/* --------------------------------1067px-------------------------------- */
+@media only screen and (max-width: 1067px) {
+	.main-layout .display-container .display {
+		margin-top: 5%;
+		transition: all 0.4s linear;
+	}
+/*	.main-layout .latest-hindi-songs .song {
+		margin-top: 5%;
+		transition: all 0.4s linear;
+	}*/
+}
+/* --------------------------------950px-------------------------------- */
+@media only screen and (max-width: 950px) {
+	.right-side {
+		gap: 1rem;
+		transition: all 0.4s linear;
+	}
+	.main-layout .trending .image {
+		max-width: 200px;
+		min-height: 140px;
+	}
+	.main-layout .album{
+		flex-direction: column;
+		min-width: 100px;
+		max-height: 800px;
+		margin-top: 5%;
+		transition: all 0.4s linear;
+	}
+	.main-layout .album .image {
+		min-width: 100px;
+		min-height: 220px;
+		transition: all 0.4s linear;
+	}
+	.masterPlay .leftside {
+		flex-wrap: wrap;
+	}
+	.masterPlay .middle {
+		gap: 15%;
+	}
+}
+/* --------------------------------870px-------------------------------- */
+@media only screen and (max-width: 870px) {
+	/*.menu {
+		display: initial;
+		margin-top: auto;
+		margin-bottom: auto;
+		transition: all 0.4s linear;
+	}*/
+	.header-container .right-side .profile-image {
+		display: none;
+		transition: all 0.4s linear;
+	}
+	.header-container .right-side .notification {
+		display: none;
+		transition: all 0.4s linear;
+	}
+	.main-layout .trending .image {
+		min-height: 120px;
+	}
+	.masterPlay .middle {
+		flex-wrap: wrap;
+		gap: 10%;
+	}
+}
+/* --------------------------------800px-------------------------------- */
+@media only screen and (max-width: 800px) {
+	.main-layout .trending .image {
+		max-width: 260px;
+		min-height: 160px;
+	}
+	.right-side {
+		gap: 0.4rem;
+		transition: all 0.4s linear;
+	}
+	.header-container .left-side  .favourites {
+		margin-left: 0.4rem;
+		transition: all 0.5s ease-in;
+	}
+	.left-side-m {
+		width: 96%;
+		padding: 2%;
+		margin-left: 2%;
+		display: block;
+		background: transparent;
+		z-index: 2;
+	}
+	.playlist {
+		width: 100%;
+		display: block;
+		height: auto;
+		overflow: hidden;
+	}
+	.playlist .playlist-header {
+		padding: 0% 10%;
+	}
+	.playlist .song-container {
+		min-height: 150px;
+		gap: 3%;
+	}
+	.playlist .song-container .pimage {
+		min-height: 100px;
+		min-width: 100px;
+	}
+	.main-layout .artists {
+		padding-top: 2%;
+		gap: 1%;
+		margin-top: 3%;
+	}
+	.main-layout .artists .masterArtist {
+		margin-top: 5%;
+	}
+/*	.music-stations {
+		margin-top: 5%;
+	}*/
+	.main-layout .album {
+		flex-direction: row;
+		min-width: 0px;
+		max-height: 0px;
+	}
+	.main-layout .album .image {
+		min-width: 118px;
+		min-height: 0px;
+	}
+	.playlist .song-container .song-info {
+		padding-left: 5%;
+	}
+}
+/* --------------------------------720px-------------------------------- */
+@media only screen and (max-width: 720px) {
+	.navbar div.search {
+		display: none;
+	}
+	.header-container .right-side {
+		justify-content: flex-end;
+		transition: all 0.5s ease-in;
+		width: 10%;
+	}
+	.header-container {
+		justify-content: space-between;
+		padding-right: 0%;
+	}
+	.header-container .left-side {
+		width: 90%;
+	}
+	.header-container .favourites {
+		transition: all 0.5s ease-in;
+		margin-left: 10%;
+	}
+/*	.menu .options li:first-child + li {
+		border-bottom: 1px solid black;
+	}
+	.menu .options li:last-child {
+		display: inline-block;
+		width: 100%;
+	}*/
+	.header-container .left-side .logo {
+		width: 40px;
+		min-width: 40px;
+		height: 40px;
+	}
+	.header-container .favourites {
+		transition: all 0.5s ease-in;
+		font-size: 0.8rem;
+	}
+	.header-container .company {
+		font-size: 1rem;
+	}
+	.header-container .company > * + * + * {
+		font-size: 1.4rem;
+	}
+	/*.menu #checkbox-label {
+		bottom: 20%;
+		font-size: 1.5rem;
+	}*/
+	.masterPlay .leftside .song-details p/*:first-child*/ {
+		font-size: 0.8rem;
+		display: inline-block;
+	}
+}
+/* --------------------------------600px-------------------------------- */
+@media only screen and (max-width: 600px) {
+	/*.music-stations .logo {
+		position: sticky;
+		top: 5%;
+	}*/
+	.latest.content .album {
+		width: 100%;
+		min-height: 180px;
+	}
+	.main-layout .album .image {
+		min-width: 180px;
+		max-height: 180px;
+	}
+	.latest.content {
+		flex-direction: column;
+	}
+/*	.carousel .image {
+		min-height: 130px;
+	}*/
+	.playbar {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.playbar .album {
+		display: none;
+	}
+	.playbar .main-control {
+		flex: 1 0 100%;
+	}
+	.playbar .side-control {
+		display: none;
+	}
+}
+/* --------------------------------460px-------------------------------- */
+@media only screen and (max-width: 460px) {
+	.right-side {
+		margin-top: 15%;
+		margin-bottom: 10%;
+	}
+	.latest-english-songs,
+	.latest-hindi-songs {
+		margin-top: 25%;
+	}
+	.mood-showcase {
+		margin-top: 25%;
+	}
+	.music-stations {
+		margin-top: 25%;
+	}
+	.latest-releases {
+		margin-top: 15%;
+	}
+	.carousel .image {
+		min-height: 70px;
+	}
+	footer {
+		justify-content: center;
+		align-items: center;
+	}
+	footer .two {
+		flex-direction: column;
+		margin-bottom: 5%;
+	}
+	footer .line {
+		border-right: 0;
+		border-bottom: 2px solid lightgray;
+		padding-bottom: 5%;
+	}
+	footer .contact {
+		margin-top: 5%;
+	}
+}
+/* --------------------------------400px-------------------------------- */
+@media only screen and (max-width: 400px) {
+	.latest-releases .content .slot {
+		width: 100%;
+		min-height: 180px;
+	}
+	.main-layout .album .image {
+		min-width: 110px;
+		max-height: 110px;
+	}
+}

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Music Player</title>
+		<link rel="icon" href="./assests/logo/play.png" type="image/icon">
+
+
+		<!-------------- Internal CSS links ---------------->
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/side-playlist.css">
+		<link rel="stylesheet" href="css/mainPage.css">
+		<link rel="stylesheet" href="css/masterPlay.css">
+		<link rel="stylesheet" href="css/media.css">
+		<!-- <link rel="stylesheet" href="css/responsive.css">
+ -->
+
+		<!------------- Google Fonts links ----------------->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+		<!---------------font awesome  ---------------------->
+		<script src="https://kit.fontawesome.com/fab63007be.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+
+
+		<!-------------------- Header Section - Top ------------------->
+		<header class="header-container">
+			<section class="left-side">
+				<div class="logo"><img src="assests/logo/logo.jpg" alt="logo-image"></div>
+				<h3 class="company">Feel THE <span class="logo-text">Music</span></h3>
+					<p class="favourites">Favourites</p>
+			</section>
+			<section class="right-side">
+				<img src="assests/header-images/search.svg" class="search-icon">
+				<input type="text" class="search-song" placeholder="Search Online">
+				<img src="assests/header-images/voice-search-icon.svg" class="voice-search-icon">
+				<i class="fa-solid fa-bell"></i>
+				<div class="notification">2</div>
+				<img src="assests/header-images/profile.png" class="profile-image">
+			</section>
+		</header>
+
+
+
+		<main class="left-side-m">
+			<div class="main-layout">
+
+
+
+				<!-------------------- Trending section ---------------------->
+				<section class="trending">
+					<div class="image" >
+					<img src="assests/trending/a.jpg">
+					</div>
+
+					<div class="image" >
+					<img src="assests/trending/b.jpg">
+					</div>
+
+					<div class="image" >
+					<img src="assests/trending/c.jpg">
+					</div>
+				</section>
+
+				
+				
+				
+				<!---------------------- Latest Release ---------------------->
+				<h2 class="h2-headings">Latest Release</h2>
+				<div class="latest">
+					<div class="album">
+						<div class="image">
+						<img src="assests/latest-release/AmusedDevotedBongo.webp"></div>
+						<div class="album-details">
+							<p class="album-name">Elektronomia - Collide</p>
+							<p class="album-stats">Best of NCS</p>
+						</div>
+						<i class="fa-solid fa-ellipsis">
+							<div class="dropdown">
+								<p>play now</p>
+								<p>add to queue</p>
+								<p>add to favourite</p>
+								<p>get info</p>
+							</div>
+						</i>
+					</div>
+					<div class="album">
+						<div class="image">
+						<img src="assests/latest-release/3.jpg">
+					    </div>
+						<div class="album-details">
+							<p class="album-name">Madhyamvati</p>
+							<p class="album-stats">1 song &#183; 05:18</p>
+						</div>
+						<i class="fa-solid fa-ellipsis">
+							<div class="dropdown">
+								<p>play now</p>
+								<p>add to queue</p>
+								<p>add to favourite</p>
+								<p>get info</p>
+							</div>
+						</i>
+					</div>
+					<div class="album">
+						<div class="image">
+						<img src="assests/latest-release/save-soil.png"></div>
+						<div class="album-details">
+							<p class="album-name">Conscious Planet</p>
+							<p class="album-stats"><a href="https://consciousplanet.org/" target="_blank">#CONSCIOUS
+									PLANET</a></p>
+						</div>
+						<i class="fa-solid fa-ellipsis">
+							<div class="dropdown">
+								<p>play now</p>
+								<p>add to queue</p>
+								<p>add to favourite</p>
+								<p>get info</p>
+							</div>
+						</i>
+					</div>
+					<div class="album">
+						<div class="image">
+						<img src="assests/latest-release/come-awake.jpg"></div>
+						<div class="album-details">
+							<p class="album-name">Come Awake</p>
+							<p class="album-stats"><a href="https://www.innerengineering.com/save-soil"
+									target="_blank">#SAVE SOIL</a>
+							</p>
+						</div>
+						<i class="fa-solid fa-ellipsis">
+							<div class="dropdown">
+								<p>play now</p>
+								<p>add to queue</p>
+								<p>add to favourite</p>
+								<p>get info</p>
+							</div>
+						</i>
+					</div>
+				</div>
+
+
+				
+				
+				<!---------------------- Popular Artists --------------------->
+				<h2 class="h2-headings">Top Artists</h2>
+				<section class="artists">
+					<img src="assests/artists/arijit.jpeg" alt="Arijit-Singh">
+					<img src="assests/artists/justin.jpg" alt="Justin-Bieber">
+					<div class="masterArtist">
+						<a href="single-Artist.html">
+							<i class="fa-solid fa-play icon"></i>
+						</a>
+					</div>
+					<img src="assests/artists/shreya.jpg" alt="Shreya-Ghosal">
+					<img src="assests/artists/Shankar.jpg" alt="arijit-singh">
+					<img src="assests/artists/kailash.jpg" alt="arijit-singh">
+					<img src="assests/artists/mahesh.jpeg" alt="arijit-singh">
+				</section>
+
+
+				
+				
+				<!---------------------- Section: Sound of India ------------->
+				<h2 class="h2-headings">Latest Hindi</h2>
+				<div class="display-container">
+					<p class="seeAll">SEE ALL</p>
+					<div class="display">
+						<div class="display-image"><img src="assests/hindi/a.jpg"></div>
+						<p class="diplay-title">Dhokebaaz</p>
+						<p class="desc">Afsana Khan</p>
+					</div>
+					<div class="display">
+						<div class="display-image"><img src="assests/hindi/b.jpg"></div>
+						<p class="display-title">Firecracker</p>
+						<p class="desc">Vishal Dadlani, Sheykhar Ravjiani</p>
+					</div>
+					<div class="display">
+						<div class="display-image"><img src="assests/hindi/c.jpg"></div>
+						<p class="display-title">Kahani</p>
+						<p class="desc">Mohan Kannan</p>
+					</div>
+					<div class="display">
+						<div class="display-image"><img src="assests/hindi/d.jpg"></div>
+						<p class="display-title">Baliye Re</p>
+						<p class="desc">Sachet Tandon, Stebin Ben & Parampara Tandon</p>
+					</div>
+				</div>
+
+
+				
+				
+				<!---------------------- general section - Focus ------------->
+				<h2 class="h2-headings"> Focus</h2>
+				<p class="focus-baseline">Music to help ninja concentrate</p>
+				<div class="display-container">
+					<p class="seeAll">SEE ALL</p>
+					<div class="display">
+						<div class="display-image"><img src="assests/focus/1.jpg" alt=""></div>
+						<p class="display-title">Peaceful Piano</p>
+						<p class="desc">Relax and indulge with beautiful piano pieces</p>
+					</div>
+					<div class="display">
+						<div class="display-image"><img src="assests/focus/2.jpeg" alt=""></div>
+						<p class="display-title">Deep Focus</p>
+						<p class="desc">Keep calm and focus with ambient and post-rock...</p>
+					</div>
+					<div class="display">
+						<div class="display-image"><img src="assests/focus/3.jpeg" alt=""></div>
+						<p class="display-title">Instrumental Study</p>
+						<p class="desc">A soft musical backdrop for your studies.</p>
+					</div>
+					<div class="display">
+						<div class="display-image"><img src="assests/focus/4.jpeg" alt=""></div>
+						<p class="display-title">Enhance Problem Solving while listening</p>
+						<p class="desc">A new semester ahead with beats to chill,relax,study,and...</p>
+					</div>
+				</div>
+
+
+				
+				
+				
+			
+			
+			<!--------------------------- MasterPlay section - Bottom ------------------>
+			<section class="masterPlay">
+				<div class="leftside">
+					<img src="assests/cover-images/linkin-park.jpg">
+					<div class="song-details">
+						<p class="song-title">In The End</p>
+						<p class="artist-name"><a href="https://www.youtube.com/watch?v=WNeLUngb-Xg" target="_blank">Linkin Park</a></p>
+					</div>
+					<i class="fa-solid fa-circle-plus plus-button"></i>
+				</div>
+				<div class="middle">
+					<audio src="./assests/linkin-park.mp3" controls></audio>
+					<img src="./assests/icons/shuffle.png">
+					<img src="./assests/icons/repeat.png">
+					<img src="./assests/icons/expand-arrows.png" class="expand">
+				</div>
+			</section>
+		</main>
+
+
+
+
+		<!-------------------- Playlist section - Aside --------------->
+		<aside class="playlist">
+			<div class="playlist-header">
+			<h1>Playlist</h1>
+			<h4>
+				<select><a href="queue.html">
+					<option value="">Queue</option>
+					<option value="">Playlist</option></a>
+				</select>
+			</h4>
+			</div>
+			<!--------- playlist songs --------->
+			<div class="song-container">
+				<p class="index">01</p>
+				<div class="pimage">
+				<img src="assests/cover-images/warriyo-mortals.jpg" alt="">
+				</div>
+				<div class="song-info">
+					<p>Param Sundari</p>
+					<p>Sherya Ghoshal</p>
+				</div>
+				<i class="fa-regular fa-heart"></i>
+			</div>
+			<div class="song-container">
+				<p class="index">02</p>
+				<div class="pimage">
+				<img src="assests/cover-images/linkin-park.jpg" alt="">
+				</div>
+				<div class="song-info">
+					<p>Mast Magan</p>
+					<p>Arijit Singh</p>
+				</div>
+				<i class="fa-regular fa-heart"></i>
+			</div>
+			<div class="song-container">
+				<p class="index">03</p>
+				<div class="pimage">
+				<img src="assests/cover-images/landscape.jpg" alt="">
+				</div>
+				<div class="song-info">
+					<p>Khuda Jane</p>
+					<p>KK </p>
+				</div>
+				<i class="fa-regular fa-heart"></i>
+			</div>
+			<div class="song-container">
+				<p class="index">04</p>
+				<div class="pimage">
+				<img src="assests/cover-images/raazi.jpg" alt="">
+				</div>
+				<div class="song-info">
+					<p>Dosti</p>
+					<p>Amit Trivedi</p>
+				</div>
+				<i class="fa-regular fa-heart"></i>
+			</div>
+			<div class="song-container">
+				<p class="index">05</p>
+				<div class="pimage">
+				<img src="assests/cover-images/jarico.jpg" alt="">
+				</div>
+				<div class="song-info">
+					<p>Blue Eyes</p>
+					<p>Yo Yo Honey Singh</p>
+				</div>
+				<i class="fa-regular fa-heart"></i>
+			</div>
+			<div class="song-container">
+				<p class="index">06</p>
+				<div class="pimage">
+				<img src="assests/cover-images/vaishnav.jpg" alt="">
+				</div>
+				<div class="song-info">
+					<p>Bhool Bhulaiyaa</p>
+					<p>Neeraj Shridhar</p>
+				</div>
+				<i class="fa-regular fa-heart"></i>
+			</div>
+			<div class="song-container">
+					<p class="index">07</p>
+				<div class="pimage">
+				<img src="assests/cover-images/warriyo-mortals.jpg" alt="">
+				</div>
+				<div class="song-info">
+					<p>Param Sundari</p>
+					<p>Sherya Ghoshal</p>
+				</div>
+				<i class="fa-regular fa-heart"></i>
+			</div>
+			<div class="song-container">
+				<p class="index">08</p>
+				<div class="pimage">
+				<img src="assests/cover-images/linkin-park.jpg" alt="">
+				</div>
+				<div class="song-info">
+					<p>Mast Magan</p>
+					<p>Arijit Singh</p>
+				</div>
+				<i class="fa-regular fa-heart"></i>
+			</div>
+			<div class="song-container">
+				<p class="index">09</p>
+				<div class="pimage">
+				<img src="assests/cover-images/landscape.jpg" alt="">
+				</div>
+				<div class="song-info">
+					<p>Khuda Jane</p>
+					<p>KK </p>
+				</div>
+				<i class="fa-regular fa-heart"></i>
+			</div>
+			<div class="song-container">
+				<p class="index">10</p>
+				<div class="pimage">
+				<img src="assests/cover-images/raazi.jpg" alt="">
+				</div>
+				<div class="song-info">
+					<p>Dosti</p>
+					<p>Amit Trivedi</p>
+				</div>
+				<i class="fa-regular fa-heart"></i>
+			</div>
+			<div class="song-container">
+				<p class="index">11</p>
+				<div class="pimage">
+				<img src="assests/cover-images/jarico.jpg" alt="">
+				</div>
+				<div class="song-info">
+					<p>Blue Eyes</p>
+					<p>Yo Yo Honey Singh</p>
+				</div>
+				<i class="fa-regular fa-heart"></i>
+			</div>
+			<div class="song-container">
+				<p class="index">12</p>
+				<div class="pimage">
+				<img src="assests/cover-images/vaishnav.jpg" alt="">
+				</div>
+				<div class="song-info">
+					<p>Bhool Bhulaiyaa</p>
+					<p>Neeraj Shridhar</p>
+				</div>
+				<i class="fa-regular fa-heart"></i>
+			</div>
+			<div class="song-container">
+					<p class="index">13</p>
+				<div class="pimage">
+				<img src="assests/cover-images/warriyo-mortals.jpg" alt="">
+				</div>
+				<div class="song-info">
+					<p>Param Sundari</p>
+					<p>Sherya Ghoshal</p>
+				</div>
+				<i class="fa-regular fa-heart"></i>
+			</div>
+			<div class="song-container">
+				<p class="index">14</p>
+				<div class="pimage">
+				<img src="assests/cover-images/linkin-park.jpg" alt="">
+				</div>
+				<div class="song-info">
+					<p>Mast Magan</p>
+					<p>Arijit Singh</p>
+				</div>
+				<i class="fa-regular fa-heart"></i>
+			</div>
+			<div class="song-container">
+				<p class="index">15</p>
+				<div class="pimage">
+				<img src="assests/cover-images/landscape.jpg" alt="">
+				</div>
+				<div class="song-info">
+					<p>Khuda Jane</p>
+					<p>KK </p>
+				</div>
+				<i class="fa-regular fa-heart"></i>
+			</div>
+			<div class="song-container">
+				<p class="index">16</p>
+				<div class="pimage">
+				<img src="assests/cover-images/raazi.jpg" alt="">
+				</div>
+				<div class="song-info">
+					<p>Dosti</p>
+					<p>Amit Trivedi</p>
+				</div>
+				<i class="fa-regular fa-heart"></i>
+			</div>
+			<div class="song-container">
+				<p class="index">17</p>
+				<div class="pimage">
+				<img src="assests/cover-images/jarico.jpg" alt="">
+				</div>
+				<div class="song-info">
+					<p>Blue Eyes</p>
+					<p>Yo Yo Honey Singh</p>
+				</div>
+				<i class="fa-regular fa-heart"></i>
+			</div>
+			<div class="song-container">
+				<p class="index">18</p>
+				<div class="pimage">
+				<img src="assests/cover-images/vaishnav.jpg" alt="">
+				</div>
+				<div class="song-info">
+					<p>Bhool Bhulaiyaa</p>
+					<p>Neeraj Shridhar</p>
+				</div>
+				<i class="fa-regular fa-heart"></i>
+			</div>
+				
+		</aside>
+
+	</body>
+
+</html>
